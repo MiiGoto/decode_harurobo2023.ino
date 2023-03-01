@@ -18,7 +18,7 @@ void loop() {
     motor = buf>>4;
   }
   else{
-    motor = -1*buf>>4;
+    motor = -1*(buf>>4);
   }
 }
 
