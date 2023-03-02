@@ -4,10 +4,8 @@
 FlexCAN CANbus(1000000);
 CAN_message_t txmsg;
 
-void setup(void) {
-  Serial.begin(115200);
-  CANbus.begin();
-  
+void setup() {
+
 }
    
 void loop() {
